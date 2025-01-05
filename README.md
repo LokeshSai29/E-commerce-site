@@ -43,5 +43,8 @@ A responsive e-commerce website built using **React.js**. The website includes v
 - Login to your account for a personalized experience.
 
 ## Demo :
-> https://github.com/user-attachments/assets/0418a5ef-4e23-43c1-83fd-b75e0478c5ca
+
+> https://github.com/user-attachments/assets/7a03ee98-618f-4129-926c-3ef816fdfd00
+
+
 
