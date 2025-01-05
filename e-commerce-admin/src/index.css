@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background:  linear-gradient(190deg, #9b61ff, #eae1ff 90%);
+  height: 100%;
+}
+
+/* Style the scrollbar */
+::-webkit-scrollbar {
+  width: 7.1px; /* Adjust the width to whatever size you prefer */
+}
+
+/* Style the scrollbar track */
+::-webkit-scrollbar-track {
+  background: #262626; /* You can adjust this to your preference */
+}
+
+/* Style the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background: #b2f142; /* Set the thumb color to #b2f142 */
+  border-radius: 4px;
+  height: 30px; /* Decrease the length of the slider */
+  min-height: 30px; /* Ensures a minimum height */
+}
+
+/* Hover effect on scrollbar thumb */
+::-webkit-scrollbar-thumb:hover {
+  background: #8bd72b; /* Darker shade of #b2f142 when hovered */
+}

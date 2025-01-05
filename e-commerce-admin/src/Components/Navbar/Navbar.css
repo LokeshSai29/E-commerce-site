@@ -1,0 +1,42 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0a0909;
+    padding: 15px 70px;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo {
+    width: 45px;
+    margin-right: 10px; /* Add spacing between logo and text */
+}
+
+.nav-text {
+    color: #e4d7d7;
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: -5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.nav-profile {
+    width: 75px;
+}
+
+@media (max-width: 800px) {
+    .nav {
+        padding: 15px 30px;
+    }
+    .nav-logo {
+        width: 150px;
+    }
+    .nav-profile {
+        width: 60px;
+    }
+}

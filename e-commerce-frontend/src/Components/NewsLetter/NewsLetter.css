@@ -1,0 +1,133 @@
+.newsletter{
+    width: 100%;
+    max-width: 1200px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 50px 8%;
+    margin-bottom: 100px;
+    /*background:  linear-gradient(180deg, #9b61ff, #eae1ff 70%);*/
+    background: #eae1ff;
+    gap: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0.3, 0.3, 0.3, 0.4);
+}
+
+.newsletter h1{
+    color: #262626;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.newsletter p{
+    color: #454545;
+    font-size: 18px;
+}
+
+.newsletter div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #262626;
+    width: 95%;
+    max-width: 650px;
+    height: 60px;
+    border-radius: 80px;
+    border: 1px solid #262626;
+}
+
+.newsletter input{
+    flex: 1;
+    padding-left: 35px;
+    border: none;
+    outline: none;
+    color: #eae1ff;
+    border-radius: 80px;
+    font-family: Poppins;
+    font-size: 16px;
+    background: #262626;
+}
+
+.newsletter input::placeholder {
+    color: whitesmoke;
+}
+
+.newsletter div button{
+    width: 180px;
+    height: 60px;
+    border-radius: 80px;
+    background: #b2f142;
+    color: black;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* ----- Message Styles ----- */
+.newsletter .message {
+    color: #262626;
+    font-size: 18px;
+    font-weight: 500;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    margin-top: 20px;
+    animation: fadeInOut 4s ease-in-out forwards;
+}
+
+@keyframes fadeInOut {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+/* ----------- media query--------- */
+@media(max-width:1280px){
+    .newsletter h1{
+        font-size: 35px;
+    } 
+}
+
+@media(max-width:900px){
+    .newsletter h1{
+        font-size: 30px;
+    }
+    .newsletter{
+        gap: 10px;
+    }
+   .newsletter div{
+        width: 95%;
+        height: 50px;
+        margin-top: 10px;
+   }
+   .newsletter input{
+        padding-left: 20px;
+    }
+    .newsletter div button{
+        width: 100px;
+        height: 50px;
+        border-radius: 25px;
+        font-size: 14px;
+    }
+}
+@media(max-width:500px){
+    .newsletter{
+        padding: 50px 5%;
+    }
+    .newsletter div{
+        width: 100%;
+    }
+    .newsletter div button{
+        font-size: 12px;
+    }
+}

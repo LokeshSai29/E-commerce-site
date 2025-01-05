@@ -1,0 +1,177 @@
+.offers{
+    margin: 100px auto;
+    width: 65%;
+    height: 270px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 3%;
+    margin-bottom: 150px;/*
+    background:  linear-gradient(182deg, #9b61ff, #eae1ff 70%);*/
+    background: #eae1ff;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0.3, 0.3, 0.3, 0.4);
+}
+
+.offers-left h1{
+    color: #171717;
+    font-size: 60px;
+    font-weight: 600;
+}
+.offers-left p{
+    color: #171717;
+    font-size: 16px;
+    font-weight: 600;
+}
+.offers-left button{
+    width: 230px;
+    height: 60px;
+    border-radius: 35px;
+    background: #ff4141;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.offers-right img{
+    width: 600px;
+    padding-top: 0px;
+}
+
+/* ----- media query----- */
+
+@media(max-width:1280px){
+    .offers-right img{
+        width: 300px;
+    }
+    .offers-left h1{
+        font-size: 40px;
+    }
+    .offers-left p{
+        font-size: 14px;
+    }
+    .offers-left button{
+        width: 200px;
+        height: 50px;
+        
+        font-size: 18px;
+        margin-top: 25px;
+    }
+}
+@media(max-width:1024px){
+    .offers-right img{
+        width: 200px;
+    }
+}
+@media(max-width:800px){
+    .offers-right{
+        display: none;
+    }
+    .offers{
+        padding: 50px 8%;
+    }
+}
+
+
+
+
+
+
+
+
+
+.offers-right .countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background: #eae1ff; /* Set a solid background for the countdown */
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0.3, 0.3, 0.3, 0.3);
+    margin-top: 20px;
+  }
+  
+  .countdown .time {
+    text-align: center;
+    background: #212121;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    width: 80px;
+  }
+  
+  .countdown .time span {
+    font-size: 45px;
+  }
+  
+  .countdown .time p {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 5px;
+  }
+  
+  .offers-left h1 {
+    color: #171717;
+    font-size: 60px;
+    font-weight: 600;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .offers-left p {
+    color: #171717;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  
+  
+  @media (max-width: 1280px) {
+    .offers-right .countdown {
+      gap: 20px;
+      padding: 15px;
+    }
+    .offers-left h1 {
+      font-size: 50px;
+    }
+    .offers-left p {
+      font-size: 14px;
+    }
+    .offers-left button {
+      width: 200px;
+      height: 50px;
+      font-size: 18px;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .offers-right .countdown {
+      flex-direction: column;
+    }
+    .offers-right img {
+      width: 200px;
+    }
+  }
+  
+  @media (max-width: 800px) {
+    .offers-right {
+      display: none;
+    }
+    .offers {
+      padding: 50px 8%;
+    }
+  }
+
+
+
+  /*arrow*/
+  .arrow {
+    font-size: 24px;
+    width: 10px;
+    color: black; 
+    margin-left: 10px;
+    font-size: larger;
+    }
